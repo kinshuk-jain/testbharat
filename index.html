@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+        <meta charset="utf-8">
+     
+    </head>
+    <body>
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+        
+        <h1>This is my JS test page</h1>
+<!--        
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=200&layout=button_count&action=like&show_faces=true&share=false&height=21&appId" width="200" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> -->
+        
+        
+        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="200" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false" width="200" height="21"></div>
+
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="./ind.js"></script>
+        <script>
+            $(document).ready(function(){
+                doIt();
+                controlQueue();
+            });
+        </script>
+    </body>
+</html>
