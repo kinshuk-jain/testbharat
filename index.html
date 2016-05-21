@@ -54,7 +54,7 @@
       // they are logged into this app or not.
       document.getElementById('status').innerHTML = 'Please log ' +
         'into Facebook.';
-        FB.login(function(response){
+        FB.login(function(r){
             
         }, {scope: 'public_profile, email'});
     }
