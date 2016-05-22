@@ -94,7 +94,7 @@
 function mlogin(){
     FB.login(function(response){
         console.log(response.status);
-    }, {scope: email, public_profile});
+    }, {scope: 'email, public_profile'});
 }
 
 
