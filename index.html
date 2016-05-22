@@ -91,6 +91,13 @@
   };
 
 
+function mlogin(){
+    FB.login(function(response){
+        console.log(response.status);
+    }, {scope: email, public_profile});
+}
+
+
   // Here we run a very simple test of the Graph API after login is
   // successful.  See statusChangeCallback() for when this call is made.
   function testAPI() {
@@ -115,6 +122,7 @@
 <div id="status"> login
 </div>
 
+<button type="button" onclick="">Click Me</button>
 
 
     
