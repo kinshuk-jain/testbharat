@@ -1,0 +1,130 @@
+.jumbotron {
+	background-image:url();
+    background-size:cover;
+    background-color: #EEEEEE;
+    height: auto;
+    overflow: auto;
+}
+
+.jumbotron h1 {
+    color: #666666;
+    font-size: 5vw;
+    font-family: "Oxygen", "Times New Roman";
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.jumbotron h2 {
+    color: #666666;
+    font-size: 3vw;    
+}
+
+.jumbotron .logotext {
+	 line-height: 80%;
+}
+
+.jumbotron table{
+	float:none;
+	margin:0 auto;
+}
+
+.centered {
+	text-align: center;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 10px solid #425fbd;
+	position: absolute;
+    top: 40px;
+    right: auto;
+}
+
+.footer {
+	width:100%;
+	height:auto;
+	background-color:#333;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.footerbox {
+	width:300px;
+	height:300px;
+	background-color:transparent;
+	padding:10px;
+}
+.footerbox2 {
+	width:350px;
+	height:300px;
+	background-color:#transparent;
+	padding:10px;
+}
+.footerbox3 {
+	width:350px;
+	height:300px;
+	background-color:transparent;
+	padding:10px;
+}
+
+.footerh {
+	font-family: 'Oxygen', sans-serif;
+	font-weight:700;
+	color:#FFF;
+	font-size:20px;
+	text-align: right;
+	text-transform:uppercase;
+}
+.footerp {
+	font-family: 'Oxygen', sans-serif;
+	font-weight:400;
+	color:#FFF;
+	font-size:14px;
+	
+}
+.footerpl {
+	font-family: 'Oxygen', sans-serif;
+	font-weight:400;
+	color:#FFF;
+	font-size:16px;
+	
+}
+.footerbox2 img {
+	margin-top:10px;
+}
+
+ul#footer_social li{
+	display: inline;
+	padding: 5px;
+}
+
+.gradientfill {
+	width: auto;
+	height: auto;
+	background: orange;	
+	border-radius: 50%;
+	padding: 2px;
+}
+
+.gradientfill .color1{
+	background-image: -webkit-radial-gradient(center, ellipse cover, #A75457 33%, #9348AF 67%);
+	background-image: -moz-radial-gradient(center ellipse cover, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
+	background-image: -msie-radial-gradient(center ellipse cover, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
+	background-image: -o-radial-gradient(center ellipse cover, rgb(14,173,173) 33%, rgb(0,255,255) 67% );
+}
+
+
+    /* Large desktop */
+    @media (min-width: 1200px) { ... }
+     
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) { ... }
+     
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 767px) { ... }
+     
+    /* Landscape phones and down */
+    @media (max-width: 480px) { ... }

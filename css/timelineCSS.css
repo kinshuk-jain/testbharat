@@ -1,0 +1,169 @@
+/** Top header **/
+.heading {
+    color: #fff;
+    background-color: #3aadff;
+    height:150px;
+}
+
+.heading-text{
+	text-shadow: 1px 1px 5px pink;
+}
+/** top header ends **/
+
+
+/** CSS customized for navbar **/
+.nav-text{
+    color: #000;
+    font-size: 1.5vw;
+}
+
+.navbar-brand{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.navbar{
+    z-index: 2;
+}
+
+.dec-pad li {
+    margin: 0px -5px 0px -5px;
+}
+
+#topbar.affix {
+    top: 0;
+    width: 100%;
+}
+
+#topbar.affix + .container-fluid{
+    padding-top: 80px;
+}
+/** navbar custom CSS ends **/
+
+
+/** Categories panel custom CSS **/
+.category-text{
+    font-size: 1.5vw;
+    text-align: center;
+}
+.category-list{
+    font-size: 1.4vw;
+}
+#category.affix{
+    top: 69px;
+    width: 22.6%;
+}
+#category.affix-bottom{
+    position: absolute;
+    width: 90.4%;
+}
+/** categories panel custome CSS ends **/
+
+
+/** Slider CSS**/
+#slider {
+    z-index: 0;
+}
+#slider.affix{
+    top: 69px;
+    right: 0.3%;
+    width: 23.5%;
+}
+#slider.affix-bottom{
+    position: absolute;
+    width: 90.4%;
+}
+/** Slider CSS ends **/
+
+
+/** Our community **/
+.thumbnail-images{
+    margin: 0px !important;
+    padding: 0px !important;
+    display: table-row;
+}
+/** Our Community Ends **/
+
+
+/** CSS for post section **/
+.card-shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.commentArea{
+    font-family: serif;
+    width: 100%;
+}
+.replyCommentArea{
+    font-family: serif;
+    width: 70%;
+}
+.headline{
+    font-weight: bold;
+}
+.but-pos{
+    margin-top: -10px;
+}
+.report {
+    opacity: 0;
+}
+.fb-comments, .fb-comments *{
+    width:100% !important;
+}
+/** CSS for post section ends **/
+
+
+/** Footer CSS **/
+.footer{
+    z-index: 1 !important;
+}
+.footer-sec{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+ul.footer-social li{
+    display: inline;
+    font-size: 1.5vw;
+}
+.footerpl {
+	font-family: 'Oxygen', sans-serif;
+	font-weight:400;
+	color:#FFF;
+	font-size: 1.5vw;	
+}
+/** Footer CSS Ends**/
+
+
+/** adjust navbar collapsing for responsiveness **/
+@media screen and (max-width: 900px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }  
+}
+
+@media screen and (max-width: 1000px){
+    #left-panel, #right-panel {
+        display: none;
+    }
+}
+/** adjust collapsing ends **/
