@@ -1,0 +1,5 @@
+This folder contains a sample of what we will be launching as part of testbharat.com
+The timeline is a very basic view of what our timeline will look like. 
+The index.html file is the top level view of our website. Due to absence of a back-end and business reasons I cannot share entire details.
+
+The purpose of sharing these files is to help developers get a gist of how to implement various sections of a frontend
